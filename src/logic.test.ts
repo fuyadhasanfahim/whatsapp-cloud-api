@@ -107,7 +107,7 @@ test('partial failure and crash never auto replay an uncertain message', async (
 });
 
 test('local .ogg is uploaded then sent using a voice media ID (mocked Meta API)', async () => {
-  const { sendStep } = await import('./whatsapp');
+  const { sendStep } = await import('./whatsapp.js');
   const dir = await tempFixture();
   const previousFetch = globalThis.fetch;
   const calls: { url: string; body: unknown }[] = [];
