@@ -13,3 +13,5 @@ Assets/Audios/*
 !Assets/Videos/.gitkeep
 !Assets/Audios/.gitkeep
 .db.json.*.tmp
+/node_modules
+.env
