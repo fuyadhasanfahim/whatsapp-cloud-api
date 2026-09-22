@@ -2,16 +2,7 @@ node_modules/
 dist/
 .env
 *.log
-# Contains customer identifiers. Kept outside source control.
+
 db.json
 db.json.*.tmp
-# Customer media should not accidentally be committed.
-Assets/Images/*
-Assets/Videos/*
-Assets/Audios/*
-!Assets/Images/.gitkeep
-!Assets/Videos/.gitkeep
-!Assets/Audios/.gitkeep
 .db.json.*.tmp
-/node_modules
-.env
